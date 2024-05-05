@@ -24,10 +24,11 @@ export default function RootLayout({
           "relative h-full font-sans antialised",
            inter.className
           )}>
-            <main className='relative flex flex-col min-h-screen'>
+            <main>
               <Navbar />
-             <div className='flex-grow flex-1'>{children}</div> 
+              {children}
             </main>
+            
       </body>
     </html>
   );

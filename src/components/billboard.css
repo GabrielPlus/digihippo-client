@@ -1,0 +1,10 @@
+.billboard-container {
+    display: none; /* Initially hide the container */
+  }
+  
+  @media (min-width: 640px) {
+    .billboard-container {
+      display: block; /* Show the container on larger screens */
+    }
+  }
+  
